@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+#sortedDataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#sortedDataTable th, #sortedDataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
